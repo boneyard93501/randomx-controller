@@ -1,0 +1,11 @@
+{
+    "num_cores": 6,
+    "threads_per_core": 1,
+    "thread_ids": [""],
+    "thread_model": "single",
+    "peer_id": "12D3KooWRF2opN6PWhi13KfJKFpKQ5uoVe6TL8VuGnLRagjpGfmV",
+    "keypair": "2m2afA9bGZTUssnChzbtVhexipe1nEQnxNiNJQukisE74vDiMoh6vRUWFcMv6xjzBfNoEV4GgrLWFeMJZQxGBYQ3",
+    "puzzle": "zeros",
+    "difficulty": 16,
+    "key_blockchain_uri": "https://filecoin.chainup.net/rpc/v1"
+}

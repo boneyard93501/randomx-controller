@@ -1,0 +1,138 @@
+[2023-09-25 14:53:30.692 INFO src/main.rs:117] crlc channel is up.
+[2023-09-25 14:53:30.693 INFO src/main.rs:124] global config updated.
+[2023-09-25 14:53:30.694 DEBUG /Users/bebo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/reqwest-0.11.20/src/connect.rs:429] starting new connection: https://filecoin.chainup.net/
+[2023-09-25 14:53:32.492 INFO src/main.rs:135] RandomX channel is up.
+[2023-09-25 14:53:32.493 INFO src/pow.rs:167] randomx thread 0 is up
+[2023-09-25 14:53:32.493 INFO src/pow.rs:167] randomx thread 1 is up
+[2023-09-25 14:53:32.493 INFO src/pow.rs:167] randomx thread 2 is up
+[2023-09-25 14:53:32.493 INFO src/pow.rs:167] randomx thread 3 is up
+[2023-09-25 14:53:32.493 INFO src/pow.rs:167] randomx thread 4 is up
+[2023-09-25 14:53:32.494 INFO src/pow.rs:167] randomx thread 5 is up
+[2023-09-25 14:53:32.494 INFO src/main.rs:159] setup done.
+[2023-09-25 14:53:32.494 INFO src/main.rs:161] waiting for randomx disk to be initiated for each instance. This takes a while.
+[2023-09-25 14:53:51.674 INFO src/pow.rs:40] hasher setup 443864de9267bfd0b7e3f20105a8b5017f02ac0ffdf5ce7709b3b76da2502665
+[2023-09-25 14:53:51.676 INFO src/pow.rs:40] hasher setup be50cebece864764d23a43dcba4de96145d3fc150ba163304c7a0ffb4261ece7
+[2023-09-25 14:53:51.676 INFO src/pow.rs:40] hasher setup 7d97e67a18a6f3cf29d93524a45f3671d3807871a1b4d50ce0fed1a8f7b35f5b
+[2023-09-25 14:53:51.678 INFO src/pow.rs:40] hasher setup 49f926cd6a74d71df1791527bfb28c445df7c79464afcaf1eab0d43aeb34aa63
+[2023-09-25 14:53:51.683 INFO src/pow.rs:40] hasher setup d86af7c93aac75637882eb63b4954b86d162c382cc256c5b6b662326e69b675c
+[2023-09-25 14:53:51.688 INFO src/pow.rs:40] hasher setup ae8903e7b1c73040f0e12dba23ea2df8069df8814f3691d534ea549a43b6a219
+[2023-09-25 14:53:51.688 INFO src/main.rs:172] 6 randomx disks are initiated.
+[2023-09-25 14:53:51.688 INFO src/main.rs:178] entering main control loop.
+[2023-09-25 14:56:03.806 INFO src/main.rs:314] received sigterm signal ... shutting down.
+[2023-09-25 14:56:03.807 INFO src/pow.rs:79] app exit for thread ae8903e7b1c73040f0e12dba23ea2df8069df8814f3691d534ea549a43b6a219
+[2023-09-25 14:56:03.812 INFO src/pow.rs:79] app exit for thread 49f926cd6a74d71df1791527bfb28c445df7c79464afcaf1eab0d43aeb34aa63
+[2023-09-25 14:56:03.912 INFO src/pow.rs:79] app exit for thread be50cebece864764d23a43dcba4de96145d3fc150ba163304c7a0ffb4261ece7
+[2023-09-25 14:56:03.912 INFO src/pow.rs:79] app exit for thread d86af7c93aac75637882eb63b4954b86d162c382cc256c5b6b662326e69b675c
+[2023-09-25 14:56:03.912 INFO src/pow.rs:79] app exit for thread 443864de9267bfd0b7e3f20105a8b5017f02ac0ffdf5ce7709b3b76da2502665
+[2023-09-25 14:56:03.920 INFO src/pow.rs:79] app exit for thread 7d97e67a18a6f3cf29d93524a45f3671d3807871a1b4d50ce0fed1a8f7b35f5b
+[2023-09-25 14:56:18.902 INFO src/main.rs:336] done with interrupt catcher.
+[2023-09-25 14:56:18.903 INFO src/main.rs:341] done and done. exiting main.
+[2023-09-25 15:53:10.946 INFO src/main.rs:117] crlc channel is up.
+[2023-09-25 15:53:10.947 INFO src/main.rs:124] global config updated.
+[2023-09-25 15:53:10.949 DEBUG /Users/bebo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/reqwest-0.11.20/src/connect.rs:429] starting new connection: https://filecoin.chainup.net/
+[2023-09-25 15:53:12.343 INFO src/main.rs:135] RandomX channel is up.
+[2023-09-25 15:53:12.344 INFO src/pow.rs:167] randomx thread 0 is up
+[2023-09-25 15:53:12.344 INFO src/pow.rs:167] randomx thread 1 is up
+[2023-09-25 15:53:12.344 INFO src/pow.rs:167] randomx thread 2 is up
+[2023-09-25 15:53:12.344 INFO src/pow.rs:167] randomx thread 3 is up
+[2023-09-25 15:53:12.344 INFO src/pow.rs:167] randomx thread 4 is up
+[2023-09-25 15:53:12.344 INFO src/pow.rs:167] randomx thread 5 is up
+[2023-09-25 15:53:12.344 INFO src/main.rs:159] setup done.
+[2023-09-25 15:53:12.344 INFO src/main.rs:161] waiting for randomx disk to be initiated for each instance. This takes a while.
+[2023-09-25 15:53:32.106 INFO src/pow.rs:40] hasher setup da769272a2bfc69dd874802a4e7935f7b1346676ddbedc88f3326fd16080c6fc
+[2023-09-25 15:53:32.106 INFO src/pow.rs:40] hasher setup 932a741505eab64333efc5267fd32fd1731cca4080210348a71703aab7b23409
+[2023-09-25 15:53:32.106 INFO src/pow.rs:40] hasher setup c437c9ff363900a0e57c184872931d5108f7abe870fbb25f89588c62270e4d60
+[2023-09-25 15:53:32.125 INFO src/pow.rs:40] hasher setup 5d3552ed539dcb4c1870206d4ed7a8bf2c8cb65cd3b273491ffe8ffb00605d3b
+[2023-09-25 15:53:32.134 INFO src/pow.rs:40] hasher setup ef5e9b3ea7dfa54c4681d38618cee39e4c175d0271885af834177709bfc1e088
+[2023-09-25 15:53:32.140 INFO src/pow.rs:40] hasher setup 08d7d3f1e04a27d1418881aa332b35acc247e95cf2cd3e5765deaab7e84d69ac
+[2023-09-25 15:53:32.140 INFO src/main.rs:172] 6 randomx disks are initiated.
+[2023-09-25 15:53:32.140 INFO src/main.rs:178] entering main control loop.
+[2023-09-25 15:53:32.141 INFO src/main.rs:314] received sigterm signal ... shutting down.
+[2023-09-25 15:53:32.142 INFO src/pow.rs:79] app exit for thread da769272a2bfc69dd874802a4e7935f7b1346676ddbedc88f3326fd16080c6fc
+[2023-09-25 15:53:32.184 INFO src/pow.rs:79] app exit for thread 932a741505eab64333efc5267fd32fd1731cca4080210348a71703aab7b23409
+[2023-09-25 15:53:32.239 INFO src/pow.rs:79] app exit for thread ef5e9b3ea7dfa54c4681d38618cee39e4c175d0271885af834177709bfc1e088
+[2023-09-25 15:53:32.265 INFO src/pow.rs:79] app exit for thread c437c9ff363900a0e57c184872931d5108f7abe870fbb25f89588c62270e4d60
+[2023-09-25 15:53:32.375 INFO src/pow.rs:79] app exit for thread 5d3552ed539dcb4c1870206d4ed7a8bf2c8cb65cd3b273491ffe8ffb00605d3b
+[2023-09-25 15:53:32.452 INFO src/pow.rs:79] app exit for thread 08d7d3f1e04a27d1418881aa332b35acc247e95cf2cd3e5765deaab7e84d69ac
+[2023-09-25 15:53:47.183 INFO src/main.rs:336] done with interrupt catcher.
+[2023-09-25 15:53:47.184 INFO src/main.rs:341] done and done. exiting main.
+[2023-09-25 15:55:23.949 INFO src/main.rs:117] crlc channel is up.
+[2023-09-25 15:55:23.950 INFO src/main.rs:124] global config updated.
+[2023-09-25 15:55:23.952 DEBUG /Users/bebo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/reqwest-0.11.20/src/connect.rs:429] starting new connection: https://filecoin.chainup.net/
+[2023-09-25 15:55:25.172 INFO src/main.rs:135] RandomX channel is up.
+[2023-09-25 15:55:25.174 INFO src/pow.rs:167] randomx thread 0 is up
+[2023-09-25 15:55:25.174 INFO src/pow.rs:167] randomx thread 1 is up
+[2023-09-25 15:55:25.174 INFO src/pow.rs:167] randomx thread 2 is up
+[2023-09-25 15:55:25.174 INFO src/pow.rs:167] randomx thread 3 is up
+[2023-09-25 15:55:25.174 INFO src/pow.rs:167] randomx thread 4 is up
+[2023-09-25 15:55:25.174 INFO src/pow.rs:167] randomx thread 5 is up
+[2023-09-25 15:55:25.174 INFO src/main.rs:159] setup done.
+[2023-09-25 15:55:25.174 INFO src/main.rs:161] waiting for randomx disk to be initiated for each instance. This takes a while.
+[2023-09-25 15:55:46.115 INFO src/pow.rs:40] hasher setup e5d7d800b41b1e7039a15725596f43d6a4bcc91d711df6582826c2d4cd176363
+[2023-09-25 15:55:46.128 INFO src/pow.rs:40] hasher setup cb4ef994162ed5c825eecf885495b0c105e3f1f19a5108de0a6182b9b0bdb3aa
+[2023-09-25 15:55:46.135 INFO src/pow.rs:40] hasher setup 76f9988a224156ccb736aed5a76b71048ccc758de3eaf0736e3fc8a54c1b8700
+[2023-09-25 15:55:46.141 INFO src/pow.rs:40] hasher setup bed47bf66c0a63b3a6ac4ace0f180d1ba1aef156a3eb37c064aa5e2364cf31dd
+[2023-09-25 15:55:46.143 INFO src/pow.rs:40] hasher setup 7e327649460067ee77e03e1fa9a82fc9ce7801586f284b8b40d6dadd1d868edd
+[2023-09-25 15:55:46.147 INFO src/pow.rs:40] hasher setup 259251312117455bc7984f676121dc218e1239f6b8df662e8446e44bef69caa6
+[2023-09-25 15:55:46.148 INFO src/main.rs:172] 6 randomx disks are initiated.
+[2023-09-25 15:55:46.149 INFO src/main.rs:178] entering main control loop.
+[2023-09-25 15:56:04.169 INFO src/main.rs:314] received sigterm signal ... shutting down.
+[2023-09-25 15:56:04.169 INFO src/pow.rs:79] app exit for thread 7e327649460067ee77e03e1fa9a82fc9ce7801586f284b8b40d6dadd1d868edd
+[2023-09-25 15:56:04.170 INFO src/pow.rs:79] app exit for thread cb4ef994162ed5c825eecf885495b0c105e3f1f19a5108de0a6182b9b0bdb3aa
+[2023-09-25 15:56:04.170 INFO src/pow.rs:79] app exit for thread bed47bf66c0a63b3a6ac4ace0f180d1ba1aef156a3eb37c064aa5e2364cf31dd
+[2023-09-25 15:56:04.352 INFO src/pow.rs:79] app exit for thread e5d7d800b41b1e7039a15725596f43d6a4bcc91d711df6582826c2d4cd176363
+[2023-09-25 15:56:04.364 INFO src/pow.rs:79] app exit for thread 259251312117455bc7984f676121dc218e1239f6b8df662e8446e44bef69caa6
+[2023-09-25 15:56:04.509 INFO src/pow.rs:79] app exit for thread 76f9988a224156ccb736aed5a76b71048ccc758de3eaf0736e3fc8a54c1b8700
+[2023-09-25 15:56:19.223 INFO src/main.rs:336] done with interrupt catcher.
+[2023-09-25 15:56:19.224 INFO src/main.rs:341] done and done. exiting main.
+[2023-09-25 15:57:19.514 INFO src/main.rs:117] crlc channel is up.
+[2023-09-25 15:57:19.515 INFO src/main.rs:124] global config updated.
+[2023-09-25 15:57:19.516 DEBUG /Users/bebo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/reqwest-0.11.20/src/connect.rs:429] starting new connection: https://filecoin.chainup.net/
+[2023-09-25 15:57:20.664 INFO src/main.rs:135] RandomX channel is up.
+[2023-09-25 15:57:20.665 INFO src/pow.rs:167] randomx thread 0 is up
+[2023-09-25 15:57:20.665 INFO src/pow.rs:167] randomx thread 1 is up
+[2023-09-25 15:57:20.665 INFO src/pow.rs:167] randomx thread 2 is up
+[2023-09-25 15:57:20.666 INFO src/pow.rs:167] randomx thread 3 is up
+[2023-09-25 15:57:20.666 INFO src/pow.rs:167] randomx thread 4 is up
+[2023-09-25 15:57:20.666 INFO src/pow.rs:167] randomx thread 5 is up
+[2023-09-25 15:57:20.666 INFO src/main.rs:159] setup done.
+[2023-09-25 15:57:20.666 INFO src/main.rs:161] waiting for randomx disk to be initiated for each instance. This takes a while.
+[2023-09-25 15:57:40.617 INFO src/pow.rs:40] hasher setup af7e0e18130c197e51d8c2b073142b601a0820b3240bd01a75249844ed4ce301
+[2023-09-25 15:57:40.647 INFO src/pow.rs:40] hasher setup 3d88518f942943fb3e7297467d986d211faa6582f7a3f22cdf82db56b7b7aaaa
+[2023-09-25 15:57:40.668 INFO src/pow.rs:40] hasher setup eb591074e075f5247ab3986ec430d6a21678bd9e25968be12592e0c60b2b7574
+[2023-09-25 15:57:40.688 INFO src/pow.rs:40] hasher setup 3ae2ec5528d85d3d90c578a93faaf37de7f1a46f3b0f5700f3837c1d6cee43b4
+[2023-09-25 15:57:40.688 INFO src/pow.rs:40] hasher setup 11b13d8d0b876f2ca269ce2bd1402217bd2867a011563b439ae854b070207ea6
+[2023-09-25 15:57:40.707 INFO src/pow.rs:40] hasher setup 2a6c3286236b7fd18824c4795eea0dee893bc841c16aaf74a39dec5ef75eb87a
+[2023-09-25 15:57:40.708 INFO src/main.rs:172] 6 randomx disks are initiated.
+[2023-09-25 15:57:40.708 INFO src/main.rs:178] entering main control loop.
+[2023-09-25 15:58:10.735 INFO src/main.rs:236] need to reduce thread count to 0 by 4 threads
+[2023-09-25 15:58:10.738 INFO src/pow.rs:69] dealloc exit for thread 3ae2ec5528d85d3d90c578a93faaf37de7f1a46f3b0f5700f3837c1d6cee43b4
+[2023-09-25 15:58:10.743 INFO src/pow.rs:69] dealloc exit for thread 3d88518f942943fb3e7297467d986d211faa6582f7a3f22cdf82db56b7b7aaaa
+[2023-09-25 15:58:10.743 INFO src/pow.rs:69] dealloc exit for thread 2a6c3286236b7fd18824c4795eea0dee893bc841c16aaf74a39dec5ef75eb87a
+[2023-09-25 15:58:10.743 INFO src/pow.rs:69] dealloc exit for thread af7e0e18130c197e51d8c2b073142b601a0820b3240bd01a75249844ed4ce301
+[2023-09-25 15:58:13.741 INFO src/main.rs:244] update allocated thread count: 2 and deallocated thread count: 4
+[2023-09-25 15:58:31.753 INFO src/main.rs:249] need to increase thread count by 3 threads
+[2023-09-25 15:58:31.753 INFO src/pow.rs:167] randomx thread 0 is up
+[2023-09-25 15:58:31.754 INFO src/pow.rs:167] randomx thread 1 is up
+[2023-09-25 15:58:31.754 INFO src/pow.rs:167] randomx thread 2 is up
+[2023-09-25 15:58:31.754 INFO src/main.rs:264] waiting for additional randomx disks to be initiated. This takes a while.
+[2023-09-25 15:58:42.140 INFO src/pow.rs:40] hasher setup 3d88518f942943fb3e7297467d986d211faa6582f7a3f22cdf82db56b7b7aaaa
+[2023-09-25 15:58:42.140 INFO src/pow.rs:40] hasher setup 2a6c3286236b7fd18824c4795eea0dee893bc841c16aaf74a39dec5ef75eb87a
+[2023-09-25 15:58:42.140 INFO src/pow.rs:40] hasher setup 3ae2ec5528d85d3d90c578a93faaf37de7f1a46f3b0f5700f3837c1d6cee43b4
+[2023-09-25 15:58:42.140 INFO src/main.rs:277] A total of 5 randomx disks are initiated.
+[2023-09-25 15:58:42.140 INFO src/main.rs:280] starting cleanup of dealloc tracker.
+[2023-09-25 15:59:06.165 INFO src/main.rs:249] need to increase thread count by 1 threads
+[2023-09-25 15:59:06.165 INFO src/pow.rs:167] randomx thread 0 is up
+[2023-09-25 15:59:06.165 INFO src/main.rs:264] waiting for additional randomx disks to be initiated. This takes a while.
+[2023-09-25 15:59:06.165 INFO src/main.rs:277] A total of 5 randomx disks are initiated.
+[2023-09-25 15:59:06.165 INFO src/main.rs:280] starting cleanup of dealloc tracker.
+[2023-09-25 15:59:10.220 INFO src/pow.rs:40] hasher setup af7e0e18130c197e51d8c2b073142b601a0820b3240bd01a75249844ed4ce301
+[2023-09-25 15:59:24.178 INFO src/main.rs:314] received sigterm signal ... shutting down.
+[2023-09-25 15:59:24.179 INFO src/pow.rs:79] app exit for thread 3d88518f942943fb3e7297467d986d211faa6582f7a3f22cdf82db56b7b7aaaa
+[2023-09-25 15:59:24.209 INFO src/pow.rs:79] app exit for thread 11b13d8d0b876f2ca269ce2bd1402217bd2867a011563b439ae854b070207ea6
+[2023-09-25 15:59:24.216 INFO src/pow.rs:79] app exit for thread 3ae2ec5528d85d3d90c578a93faaf37de7f1a46f3b0f5700f3837c1d6cee43b4
+[2023-09-25 15:59:24.219 INFO src/pow.rs:79] app exit for thread eb591074e075f5247ab3986ec430d6a21678bd9e25968be12592e0c60b2b7574
+[2023-09-25 15:59:24.414 INFO src/pow.rs:79] app exit for thread 2a6c3286236b7fd18824c4795eea0dee893bc841c16aaf74a39dec5ef75eb87a
+[2023-09-25 15:59:24.421 INFO src/pow.rs:79] app exit for thread af7e0e18130c197e51d8c2b073142b601a0820b3240bd01a75249844ed4ce301
+[2023-09-25 15:59:39.179 INFO src/main.rs:336] done with interrupt catcher.
+[2023-09-25 15:59:39.180 INFO src/main.rs:341] done and done. exiting main.
