@@ -40,12 +40,12 @@ pub fn randomx_fast_instance(
     log::info!("hasher setup {}", thread::current().name().unwrap());
 
     let mut randomx_hasher = Hasher::new(context);
-    let nonce_raw: u64 = (Utc::now().timestamp_millis() as u64) + key_block;
+    // this makes for a pretty small byte array. we could either hash the value or make it bigger, e.g., square it.
+    let nonce_raw: i64 = Utc::now().timestamp_nanos_opt().unwrap() + *key_block as i64;
     let mut nonce = mocks::signer(&nonce_raw.to_le_bytes().to_vec());
-
     randomx_hasher.hash_first(&nonce);
     loop {
-        let next_nonce_raw: u64 = (Utc::now().timestamp_millis() as u64) + key_block;
+        let next_nonce_raw: i64 = Utc::now().timestamp_nanos_opt().unwrap() + *key_block as i64;
         let next_nonce = mocks::signer(&next_nonce_raw.to_le_bytes().to_vec());
         let out = randomx_hasher.hash_next(&next_nonce);
         
@@ -63,6 +63,7 @@ pub fn randomx_fast_instance(
             sender.send(solution).unwrap();
             // log::info!("got a match {}", thread::current().name().unwrap());
         }
+        
         nonce = next_nonce;
 
         if thread_dealloc(&alloc_threads, &dealloc_threads, &dealloc_requests, &randomx_up_counter) {
