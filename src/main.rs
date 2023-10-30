@@ -22,9 +22,11 @@ mod keyblock;
 mod mocks;
 mod pow;
 mod puzzle;
+mod pid_handler;
 
 
 const LOG_PATH: &str = "./logs/log.txt";
+const PID_PATH: &str = "./pid.json";
 const SETUP_CFG_PATH: &str = "./data/randomx_cfg.json";
 const RUNTME_CFG_PATH: &str = "./data/runtime_cfg.json";
 const PUZZLE_SOLUTION_DIR: &str = "./puzzle-solutions/";
@@ -107,6 +109,10 @@ fn global_config_setter(app_cfg: &RandomxCfg, runtime_cfg: &RuntimeCfg) -> Resul
 }
 
 fn main() {
+
+    // handle pid file
+    pid_handler::rm_pid();
+    pid_handler::write_pid();
     
     setup_logging();
 
@@ -144,7 +150,6 @@ fn main() {
     let mut thread_handler:Vec<thread::JoinHandle<()>>;
 
     // start initiating threads
-    // TODO adjust for deallocs at startup
     thread_handler = pow::randomx_thread_pool_handler( 
         MAX_THREAD_COUNT.load(Relaxed),
         CURRENT_KEYBLOCK.load(Relaxed),
